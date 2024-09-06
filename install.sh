@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © FLIXX OFFICIAL ⚡               [+]${NC}"
+  echo -e "${BLUE}[+]                  © LEXXA OFFCIAL⚡               [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${RED} [+] =============================================== [+]${NC}"
   echo -e ""
@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk memperjual belikan."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "t.me/FlixxOfficiall"
+  echo -e "t.me/Relaxx44"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "©FlixxOfficiall"
+  echo -e "©Lexxa"
   sleep 4
   clear
 }
@@ -56,7 +56,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               𝗟𝗜𝗖𝗘𝗡𝗦𝗬 𝗕𝗬 𝗙𝗟𝗜𝗫𝗫𝗢𝗙𝗙𝗖         [+]${NC}"
+  echo -e "${BLUE}[+]               𝗟𝗜𝗖𝗘𝗡𝗦𝗬 𝗕𝗬 LEXXAO𝗙𝗙𝗖         [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}𝗠𝗔𝗦𝗨𝗞𝗔𝗡 𝗔𝗞𝗦𝗘𝗦 𝗧𝗢𝗞𝗘𝗡 :${NC}"
@@ -65,7 +65,7 @@ check_token() {
   if [ "$USER_TOKEN" = "flixxjb" ]; then
     echo -e "${GREEN}𝗔𝗞𝗦𝗘𝗦 𝗕𝗘𝗥𝗛𝗔𝗦𝗜𝗟${NC}}"
   else
-    echo -e "${GREEN}𝗕𝘂𝘆 𝗗𝘂𝗹𝘂 𝗪𝗸𝘄𝗸𝘄𝗸 𝗗𝗶 𝗙𝗹𝗶𝘅𝘅𝗢𝗳𝗳𝗰 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 @𝗙𝗹𝗶𝘅𝘅𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹𝗹${NC}"
+    echo -e "${GREEN}𝗕𝘂𝘆 𝗗𝘂𝗹𝘂 𝗪𝗸𝘄𝗸𝘄𝗸 𝗗𝗶 LEXXA 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 @relaxx44${NC}"
     exit 1
   fi
   clear
@@ -88,7 +88,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/FlixxOffc/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/Maulana123/lexxa/thema/raw/main/C2.zip")
         break
         ;;
       2)
@@ -96,7 +96,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/FlixxOffc/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/Maulana123/lexxa/thema/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -222,7 +222,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/VallzHost/installer-theme/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/Maulana123/installer-theme/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -241,7 +241,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/FlixxOffc/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/Maulana123/thema/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
